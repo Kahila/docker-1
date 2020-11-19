@@ -1,7 +1,5 @@
-# docker-1
-
-
-##How To Docker
+# Docker-1
+## How To Docker
 
 1. Create a virtual machine with docker-machine using the VirtualBox driver, andnamedChar.
 2. Get the IP address of the theCharvirtual machine.
@@ -21,7 +19,7 @@
 16. Look up the spawning-pool container’s logs in real-time without running its shell.
 17. Display all the currently active containers on theCharvirtual machine.
 18. Relaunch theoverlordcontainer.
-19. Launch a container name Abathur. It will be a Python container, 2-slim version, its /root folder will be bound to a HOME folder on your host, and its 3000 port will be bound to the 3000 port of your virtual machine. You will personalize this container so that you can use theFlaskmicro-framework in its latest version. You will make sure that an HTML page displaying "Hello World" with <h1> tags can be served byFlask. You will test that your container is properly set up by accessing, via curl or a web browser, the IP address of your virtual machine on the 3000 port. You will also list all the necessary commands in your repository.
+19. Launch a container name Abathur. It will be a Python container, 2-slim version, its /root folder will be bound to a HOME folder on your host, and its 3000 port will be bound to the 3000 port of your virtual machine. You will personalize this container so that you can use theFlaskmicro-framework in its latest version. You will make sure that an HTML page displaying "Hello World" with '<h1> tags can be served byFlask. You will test that your container is properly set up by accessing, via curl or a web browser, the IP address of your virtual machine on the 3000 port. You will also list all the necessary commands in your repository.'
 20. Create a local swarm, theCharvirtual machine should be its manager.
 21. Create another virtual machine with docker-machine using the virtual box driver, and name itAiur.
 22. TurnAiurinto a slave of the local swarm in which Char is leader (the command to take control ofAiuris not requested).
