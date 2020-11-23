@@ -1,5 +1,5 @@
 # Docker-1
-## How To Docker
+## How To Docker (for reference)
 
 1. Create a virtual machine with docker-machine using the VirtualBox driver, andnamedChar.
 2. Get the IP address of the theCharvirtual machine.
